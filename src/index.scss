@@ -1,0 +1,20 @@
+:root {
+  // variable
+  --primary-color: #ecf2ff;
+  --background-component-color: #ffffff;
+  --light-blue: #cac9ff;
+
+  // accssibility
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 100vh;
+  background-color: var(--primary-color);
+}
