@@ -42,7 +42,9 @@ const Index = () => {
             </div>
           </div>
           <div className='wrapper-footer'>
-            <h1 className='title-footer'>Great</h1>
+            <h1 className='title-footer' title='Great'>
+              Great
+            </h1>
             <p className='desc-footer'>
               Your performance exceed 65% of the people conducting the test
               here!

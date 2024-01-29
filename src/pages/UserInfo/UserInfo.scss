@@ -1,5 +1,4 @@
 .user-info-wrapper {
-  //   background-color: var(--background-component-color);
   padding-top: 100px;
   padding-bottom: 100px;
   .wrapper-side {
@@ -14,7 +13,7 @@
     .wrapper-side-a {
       width: 368px;
       height: 512px;
-      background-color: #1125d6;
+      background-color: var(--blue-primary);
       border-radius: 32px;
       position: relative;
       z-index: 9;
@@ -82,10 +81,14 @@
 
         .title-footer {
           color: white;
+          background-color: #08aa85;
+          padding: 2px 20px;
+          border-radius: 0.5cm;
+          font-size: 20px;
         }
 
         .desc-footer {
-          color: white;
+          color: var(--light-blue);
           font-size: 16px;
           text-align: center;
         }
@@ -122,7 +125,7 @@
       }
 
       .wrapper-summary-red {
-        background-color: #1125d6;
+        background-color: var(--blue-primary);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -158,7 +161,7 @@
       }
 
       .wrapper-summary-yellow {
-        background-color: #1125d6;
+        background-color: var(--blue-primary);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -194,7 +197,7 @@
       }
 
       .wrapper-summary-green {
-        background-color: #1125d6;
+        background-color: var(--blue-primary);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -230,7 +233,7 @@
       }
 
       .wrapper-summary-purple {
-        background-color: #1125d6;
+        background-color: var(--blue-primary);
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -245,7 +248,7 @@
             rgba(255, 255, 255, 0.95) 0%,
             rgba(255, 255, 255, 0.95) 100%
           ),
-          #1125d6
+          var(--blue-primary)
         );
 
         .summary-svg {
@@ -254,7 +257,7 @@
           gap: 3px;
 
           .text-purple {
-            color: #1125d6;
+            color: var(--blue-primary);
           }
         }
 
